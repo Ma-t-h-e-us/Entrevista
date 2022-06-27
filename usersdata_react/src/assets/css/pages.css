@@ -1,0 +1,223 @@
+:root{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/*Login*/
+.AllContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+.contentHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.contentHeader button {
+    background-color: #61CCF5;
+    height: 35px;
+    width: 130px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    border: none;
+}
+.inputArea{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 1em;
+}
+
+.input {
+    height: 45px;
+    border-radius: 5px;
+    padding-left: 5%;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tittle {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.tittle h1 {
+    font-size: 3em;
+}
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url(/src/assets/img/background_form.png); */
+}
+
+.loginArea {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 35vw;
+    height: 50vh;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.loginArea h3 {
+    font-size: 1.5em;
+}
+
+.loginData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 75%;
+}
+
+.buttonLogin{
+    width: 50%;
+    height: 35px;
+    background-color: #61CCF5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 550;
+}
+
+/*Home*/
+.navArea {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    align-items: center;
+    font-size: 1.7em;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.navArea span {
+    cursor: pointer;
+}
+.userContent {
+
+}
+
+.userContent label {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.eachUser label {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.eachUser {
+    border-bottom: 2px #6E88F5 solid;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+.functionsArea {
+    display: flex;
+    justify-content: space-between;
+}
+.editIcon {
+    color: #56F5CB;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 50px;
+}
+.deleteUser {
+    color: red;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 50px;
+}
+.alterStatus {
+    color: #F5C949;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 50px;
+}
+.alterarDadosArea{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 60vh;
+}
+.closeModal {
+    color: red;
+    margin-top: 10px;
+    font-size: 40px;
+    width: 50px;
+}
+.ativo {
+    color: green;
+    font-weight: 700;
+}
+.inativo {
+    color: red;
+    font-weight: 700;
+}
+
+/*Register*/
+.registerArea {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 35vw;
+    height: 65vh;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.registerArea h3 {
+    font-size: 1.5em;
+}
+
+.registerData {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85%;
+}
