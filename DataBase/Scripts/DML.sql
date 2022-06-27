@@ -2,12 +2,12 @@ use UsersData
 go
 
 --Type
-insert into type(typeName)
+insert into userType(typeName)
 values ('Geral'),('Admin'),('Root');
 go
 
 --Status
-insert into status(statusName)
+insert into userStatus(statusName)
 values ('Ativo'),('Inativo');
 go
 
